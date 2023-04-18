@@ -6,7 +6,7 @@ site:
 content:
   sources:
   # embedding empty credentials in the URL disables the Edit this Page link for any page created from this repository
-  - url: https://github.com/elc3leb/antora_test.git
+  - url: https://github.com/elc3leb/antora_test
     branches: main
 ui:
   bundle:
