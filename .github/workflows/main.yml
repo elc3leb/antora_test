@@ -22,7 +22,7 @@ jobs:
          antora_docsearch_enabled: 'true'
       - name: "List folder"
         run: |
-           ls -ltr $GITHUB_WORKSPACE/build/site
+           echo coucou && ls -ltr $GITHUB_WORKSPACE/build/site
       - name: "Upload generated site"
         uses: actions/upload-artifact@v3
         with:
