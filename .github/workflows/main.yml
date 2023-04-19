@@ -21,7 +21,7 @@ jobs:
       #   run: |
       #      ls -ltr $GITHUB_WORKSPACE/build/site
       - name: "Upload generated site"
-        uses: actions/upload-artifact@v1.0.0
+        uses: actions/upload-artifact@v3
         with:
           name: site
           path: "${{ github.workspace }}/build/${{ env.SITE_DIR }}"
